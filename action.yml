@@ -44,7 +44,7 @@ runs:
     # Step 2 - Generate Docker Image Metadata
     - name: Generate Docker Image Metadata
       id: metadata
-      uses: docker/metadata-action@v5
+      uses: docker/metadata-action@v6
       with:
         images: ${{ inputs.docker-image-name }}
         flavor: |
